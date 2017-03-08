@@ -12,7 +12,7 @@ public class Call_Quandls_API {
     private String price;
 
 
-    public void load_info(String s) throws IOException {
+    public void load_info(String s) {
 
         String ticker = s;
         String[] values = null;
